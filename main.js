@@ -1,17 +1,19 @@
-const r = new rive.Rive({
+const home = new rive.Rive({
   src: "resources/home_button_text.riv",
-  canvas: document.getElementById("canvas"),
+  canvas: document.getElementById("home"),
   autoplay: true,
-  // artboard: "Arboard", // Optional. If not supplied the default is selected
   stateMachines: "home_state",
   onLoad: () => {
-    // Ensure the drawing surface matches the canvas size and device pixel ratio
-    r.resizeDrawingSurfaceToCanvas();
+    home.resizeDrawingSurfaceToCanvas();
   },
 });
 
-document.getElementById("canvas").addEventListener("click", () => {
-  console.log("Click detected");
-  r.reset();
-  r.play();
+const story = new rive.Rive({
+  src: "resources/story_button_text.riv",
+  canvas: document.getElementById("story"),
+  autoplay: true,
+  stateMachines: "home_state",
+  onLoad: () => {
+    story.resizeDrawingSurfaceToCanvas();
+  },
 });
