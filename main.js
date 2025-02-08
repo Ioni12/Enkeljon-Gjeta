@@ -9,3 +9,9 @@ const r = new rive.Rive({
     r.resizeDrawingSurfaceToCanvas();
   },
 });
+
+document.getElementById("canvas").addEventListener("click", () => {
+  console.log("Click detected");
+  r.reset();
+  r.play();
+});
