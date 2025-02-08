@@ -6,3 +6,12 @@
 body {
   background-color: #e4e2cd;
 }
+
+.background {
+  background-color: #6b7a52;
+  border-radius: 24px;
+}
+
+.noBackground {
+  background-color: transparent;
+}
