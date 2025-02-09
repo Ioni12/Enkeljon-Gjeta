@@ -28,19 +28,21 @@ const story = new rive.Rive({
   },
 });
 
-const home_div = document.getElementById("home_div");
-const story_div = document.getElementById("story_div");
+document.addEventListener("DOMContentLoaded", () => {
+  const home_div = document.getElementById("home_div");
+  const story_div = document.getElementById("story_div");
 
-document.getElementById("home").addEventListener("click", () => {
-  home_div.classList.add("background");
-  home_div.classList.remove("noBackground");
-  story_div.classList.remove("background");
-  story_div.classList.add("noBackground");
-});
+  document.getElementById("home").addEventListener("click", () => {
+    home_div.classList.add("background");
+    home_div.classList.remove("noBackground");
+    story_div.classList.remove("background");
+    story_div.classList.add("noBackground");
+  });
 
-document.getElementById("story").addEventListener("click", () => {
-  story_div.classList.add("background");
-  story_div.classList.remove("noBackground");
-  home_div.classList.remove("background");
-  home_div.classList.add("noBackground");
+  document.getElementById("story").addEventListener("click", () => {
+    story_div.classList.add("background");
+    story_div.classList.remove("noBackground");
+    home_div.classList.remove("background");
+    home_div.classList.add("noBackground");
+  });
 });
