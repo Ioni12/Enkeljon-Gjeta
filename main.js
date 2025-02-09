@@ -28,8 +28,8 @@ const story = new rive.Rive({
   },
 });
 
-const home_div = document.getElementById("home_div");
-const story_div = document.getElementById("story_div");
+const home_div = document.getElementById("home");
+const story_div = document.getElementById("story");
 
 home_div.addEventListener("click", () => {
   home_div.classList.add("background");
