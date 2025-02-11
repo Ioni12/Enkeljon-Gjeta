@@ -28,6 +28,16 @@ const story = new rive.Rive({
   },
 });
 
+const hello = new rive.Rive({
+  src: `${baseUrl}/resources/hello.riv`,
+  canvas: document.getElementById("hello"),
+  autoplay: true,
+  stateMachines: "hello_machine",
+  onLoad: () => {
+    hello.resizeDrawingSurfaceToCanvas();
+  },
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const home_div = document.getElementById("home_div");
   const story_div = document.getElementById("story_div");
