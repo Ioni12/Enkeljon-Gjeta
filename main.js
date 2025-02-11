@@ -38,6 +38,16 @@ const hello = new rive.Rive({
   },
 });
 
+const profile = new rive.Rive({
+  src: `${baseUrl}/resources/profile.riv`,
+  canvas: document.getElementById("profile"),
+  autoplay: true,
+  stateMachines: "State Machine 1",
+  onLoad: () => {
+    profile.resizeDrawingSurfaceToCanvas();
+  },
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const home_div = document.getElementById("home_div");
   const story_div = document.getElementById("story_div");
