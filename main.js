@@ -66,3 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
     home_div.classList.add("noBackground");
   });
 });
+
+document.getElementById("profile").addEventListener("click", () => {
+  document.getElementById("home").style.backgroundColor = "black";
+  navigator.vibrate([500]);
+});
