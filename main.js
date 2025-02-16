@@ -48,6 +48,16 @@ const profile = new rive.Rive({
   },
 });
 
+const projects = new rive.Rive({
+  src: `${baseUrl}/resources/projects.riv`,
+  canvas: document.getElementById("projects"),
+  autoplay: true,
+  stateMachines: "State Machine 1",
+  onLoad: () => {
+    projects.resizeDrawingSurfaceToCanvas();
+  },
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const home_div = document.getElementById("home_div");
   const story_div = document.getElementById("story_div");
@@ -68,6 +78,5 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.getElementById("profile").addEventListener("click", () => {
-  document.getElementById("home").style.backgroundColor = "black";
   navigator.vibrate([500]);
 });
