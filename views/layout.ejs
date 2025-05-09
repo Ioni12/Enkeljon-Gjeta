@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/@rive-app/canvas"></script>
+  </head>
+  <body>
+    <center>
+      <div class="flex w-[380px] h-[57px] mt-4 ml-2 mr-2">
+        <div id="home_div" class="w-[174px] h-[50px] mt-2 ml-2 mr-2 background">
+          <a href="/"
+            ><button>
+              <canvas
+                id="home"
+                class="w-[170px] h-[40px] relative z-2"
+              ></canvas></button
+          ></a>
+        </div>
+        <div id="story_div" class="w-[174px] h-[50px] mt-2 ml-2 mr-2">
+          <a href="/story"
+            ><button onclick="">
+              <canvas
+                id="story"
+                class="w-[170px] h-[40px] relative z-2"
+              ></canvas></button
+          ></a>
+        </div>
+      </div>
+
+      <%- body %>
+    </center>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
