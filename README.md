@@ -34,7 +34,7 @@ I build backend systems and AI-powered automation tools — from microservice ar
 - **Stack:** Python · PyTorch · MobileNetV3 · MediaPipe · TFLite · Google Colab
 - **Architecture:** Fine-tuned MobileNetV3-Small regression model trained on SCUT-FBP5500-v2 dataset. MediaPipe face landmark extraction as preprocessing. GradCAM visualization for model explainability. TFLite export pipeline for Android deployment.
 - **Results:** Test MAE ~0.21 · Pearson r ~0.91
-- 👉 [View Repo](#)
+- 👉 [View Repo](https://github.com/Ioni12/video_beauty.git)
 
 ---
 
