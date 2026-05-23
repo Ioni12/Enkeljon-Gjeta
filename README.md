@@ -38,12 +38,12 @@ I build backend systems and AI-powered automation tools — from microservice ar
 
 ---
 
-### 🔹 Banking REST API — Enterprise Backend System
-*Secure, production-grade banking API with full transaction management and role-based access control.*
-- **Stack:** Java · Spring Boot · Spring Security · PostgreSQL · Hibernate/JPA · Docker
-- **Architecture:** Multi-entity system (Users, Accounts, Transactions) with JWT authentication, global exception handling, JPQL queries, and structured SLF4J/Logback logging. Swagger/OpenAPI documentation included.
-- **Key Engineering:** Identity resolution via SecurityContextHolder — no user data passed in request body. Clean separation of concerns across service, repository, and controller layers.
-- 👉 [View Repo](#)
+### 🔹 Trevora — Full-Stack E-Commerce Platform
+*A complete e-commerce platform with product management, cart, and order processing.*
+- **Stack:** MongoDB · Express · React · Node.js (MERN)
+- **Architecture:** RESTful API backend with modular route handling and middleware-based authentication. React frontend with component-driven UI and client-side state management. MongoDB document model optimized for flexible product catalogues and order tracking.
+- **Key Engineering:** Decoupled frontend/backend design allows independent scaling. JWT-based auth flow secures all user and order endpoints.
+- 👉 [View Repo](https://github.com/Ioni12/trevora)
 
 ---
 
