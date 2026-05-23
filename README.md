@@ -50,4 +50,4 @@ I build backend systems and AI-powered automation tools — from microservice ar
 ## 💼 Engagement
 - **Timezone:** Full overlap with Central European Time (CET / GMT+1)
 - **Availability:** Open to remote freelance and contract work
-- **Contact:** [LinkedIn](#) · your@email.com
+- **Contact:** [LinkedIn](www.linkedin.com/in/enkeljon-gjeta) · enkeljongjeta@gmail.com
