@@ -25,7 +25,7 @@ I build backend systems and AI-powered automation tools — from microservice ar
 - **Stack:** Chrome Extension (JS) · Node.js · Express · MongoDB · Groq LLM API
 - **Architecture:** Decoupled backend handles AI field generation, user profile matching, and application logging. Chrome extension handles DOM interaction and form injection client-side. JWT-authenticated multi-user sessions.
 - **Key Engineering:** LLM prompt pipeline classifies and generates context-aware answers for open-ended essay fields — including tone-calibrated responses tailored to specific job descriptions.
-- 👉 [View Repo](#https://github.com/Ioni12/nos.git)
+- 👉 [View Repo](https://github.com/Ioni12/nos.git)
 
 ---
 
